@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Links Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        h2 {
+            color: #333;
+        }
+        nav {
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin-right: 15px;
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        /* Highlighting the target section */
+        :target {
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Page Heading -->
+    <h1>WELCOME TO MY WEB PAGE</h1>
+
+    <!-- Navigation Menu for Internal Links -->
+    <nav>
+        <a href="#section1">Section 1</a>
+        <a href="#section2">Section 2</a>
+        <a href="#section3">Section 3</a>
+        <a href="#section4">Section 4</a>
+    </nav>
+
+    <!-- Content Sections -->
+    <section id="section1">
+        <h2>Section 1: Introduction</h2>
+        <p>
+            This is the first section of the page. Clicking the link in the navigation menu highlights this section by changing its background color.
+        </p>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2: About</h2>
+        <p>
+            This section contains more details about the content of the page. When you click the respective link, this section gets highlighted.
+        </p>
+    </section>
+
+    <section id="section3">
+        <h2>Section 3: Services</h2>
+        <p>
+            Information about the services provided is listed here. Internal navigation helps in focusing on the specific section.
+        </p>
+    </section>
+
+    <section id="section4">
+        <h2>Section 4: Contact</h2>
+        <p>
+            This section contains the contact information. Clicking the link in the navigation menu will focus and highlight this section.
+        </p>
+    </section>
+
+</body>
+</html>
